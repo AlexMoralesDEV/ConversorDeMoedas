@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../imgs/pexels-josh-hild-2448749.jpg');
+    background-size: cover;
+}
+
+.container{
+    width: 350px;
+    background-color: #108d2b;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+.titulo{
+    margin: 5px 0;
+}
+
+.valores{
+    padding: 15px;
+}
+
+.valores input, .valores select{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 15px;
+    color: #FFF;
+    border: none;
+    outline: none;
+    background-color: #014707;
+}
+
+.resultado{
+    padding: 15px;
+}
+
+.valorResultado{
+    font-size: 2em;
+}
+
+.footer{
+    padding: 15px;
+}
+
+.footer button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #014707;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
